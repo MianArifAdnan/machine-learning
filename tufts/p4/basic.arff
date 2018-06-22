@@ -1,0 +1,9 @@
+@relation optdigits
+
+@attribute input1  numeric
+@attribute input2  numeric
+@attribute class {0}
+
+@data
+2,3,0
+

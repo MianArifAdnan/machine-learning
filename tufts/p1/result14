@@ -1,0 +1,61 @@
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.19 seconds
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         500              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.002 
+Root mean squared error                  0.002 
+Relative absolute error                  0.3915 %
+Root relative squared error              0.3929 %
+Total Number of Instances              500     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    ?         ?         0
+                 1.000    0.000    1.000      1.000    1.000      1.000    ?         ?         1
+Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    0.000     0.000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 237   0 |   a = 0
+   0 263 |   b = 1
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         156               78      %
+Incorrectly Classified Instances        44               22      %
+Kappa statistic                          0.5526
+Mean absolute error                      0.2211
+Root mean squared error                  0.4681
+Relative absolute error                 44.5654 %
+Root relative squared error             94.2297 %
+Total Number of Instances              200     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.765    0.209    0.730      0.765    0.747      0.553    0.782     0.663     0
+                 0.791    0.235    0.820      0.791    0.805      0.553    0.782     0.774     1
+Weighted Avg.    0.780    0.224    0.782      0.780    0.781      0.553    0.782     0.727     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 65 20 |  a = 0
+ 24 91 |  b = 1
+
