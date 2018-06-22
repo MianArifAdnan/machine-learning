@@ -1,0 +1,8 @@
+# By: Morgan Ciliv
+# README
+# Statistical Pattern Recognition - Programming Project 1
+
+Execution command: python unigram.py
+
+Notes:
+The unigram.py assumes that the data is stored in the same directory as itself.
